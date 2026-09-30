@@ -1,3 +1,6 @@
+import 'package:contact_app2/core/routes/app_rouet.dart';
+import 'package:contact_app2/feature/view/screens/home_screen.dart';
+import 'package:contact_app2/feature/view/screens/new_contact.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -14,6 +17,12 @@ class ContactApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      initialRoute: AppRouet.home,
+      routes: {
+        AppRouet.home: (context) => HomeScreen(),
+        AppRouet.newContact: (context) => NewContact(),
+      },
+    );
   }
 }
