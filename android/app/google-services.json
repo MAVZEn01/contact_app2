@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "795165418395",
+    "project_id": "contact-app-8070a",
+    "storage_bucket": "contact-app-8070a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795165418395:android:90ae08698b0278c7baf73e",
+        "android_client_info": {
+          "package_name": "com.example.contact_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwJ6DG3L8o6NlZibS-QtRTHaiW4JoXIPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795165418395:android:4e93e4fffb775e7cbaf73e",
+        "android_client_info": {
+          "package_name": "com.example.contact_app2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwJ6DG3L8o6NlZibS-QtRTHaiW4JoXIPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
